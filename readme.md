@@ -1,6 +1,5 @@
 **SEE cli.py for documentation**
-
-**Author's Note**
+**Use pip3 (pandas 0.25.1 is not supported by python2**
 
 I used glob to concatenate files. I used for loops to extract products and stored in out_file. I processed best_sellers by using pandas read_json methods to sort and count data. Results are written to out_file_ which is out_file + .json. I created new json by casting dictionary values to a list. Data is finally written to out_file_ in json format. Click was used for the CLI. Please see req.txt for dependencies.
 
