@@ -1,7 +1,7 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/29040992c24d45298907b52eb5a64fa9)](https://app.codacy.com/manual/QuaxisCorporation4ResearchNInnovation/PyPandasClick-JSON-ETL-Assignment-CLI-with-Options-?utm_source=github.com&utm_medium=referral&utm_content=sysad-aldama/PyPandasClick-JSON-ETL-Assignment-CLI-with-Options-&utm_campaign=Badge_Grade_Dashboard)
 
 ### SEE cli.py for documentation
-#####Use pip3 (pandas 0.25.1 is not supported by python2.
+##### Use pip3 (pandas 0.25.1 is not supported by python2.
 
 I used glob to concatenate files. I used for loops to extract products and stored in out_file. I processed best_sellers by using pandas read_json methods to sort and count data. Results are written to out_file_ which is out_file + .json. I created new json by casting dictionary values to a list. Data is finally written to out_file_ in json format. Click was used for the CLI. Please see req.txt for dependencies.
 
