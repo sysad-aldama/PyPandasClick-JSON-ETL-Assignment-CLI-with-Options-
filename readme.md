@@ -8,7 +8,7 @@ I used glob to concatenate files. I used for loops to extract products and store
 ### Deliverable requirements:
 The objective of this exercise is to create a command line application that, given a directory of customer receipt files, can identify the top N best-selling products among all the receipts. The solution must be implemented in Python, and it must function on Windows, Mac, and Linux.
 
-Your solution should contain the following files:
+### Your solution should contain the following files
 
 - `cli.py` - single python file containing your solution
 - `req.txt` - python requirements file (if non-standard modules were used)
@@ -16,7 +16,7 @@ Your solution should contain the following files:
 
 You may submit your solution as a github/bitbucket repository, or a zipped folder.
 
-### CLI Structure:
+### CLI Structure
 
 CLI application should be called as shown below:
 
@@ -30,13 +30,13 @@ Arguments:
 
 Note: arguments must be callable in any order
 
-### Input files:
+### Input files
 
 The input receipt files contain JSON data for each customer transaction. All of the files use the same JSON fields, although they may vary in size. You must only process files ending with a ".json" extension You do not need to traverse subdirectories within the directory.
 
 There is a compressed sample folder of JSON receipt files in this repository called `data.tar.gz`
 
-## Output:
+## Output
 
 This application must output a single text file containing the following fields in JSON format:
 
