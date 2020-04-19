@@ -1,4 +1,3 @@
-cli.py
 pandas==0.25.1
 click==7.0
 
